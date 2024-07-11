@@ -147,14 +147,15 @@ text-align: right;
 
 .current-targets, .next-targets-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .target {
-    width: 30%;
+    width: 500px;
     background-color: white;
     padding: 20px;
     margin: 10px;
+
     border-radius: 5px;
     text-align: center;
 }
@@ -229,4 +230,11 @@ border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 16px;
 
 background: rgb(255, 255, 255);
+}
+.my{
+    align-items: center;
+    font-display: center;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
 }
