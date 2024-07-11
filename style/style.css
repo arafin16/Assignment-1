@@ -160,8 +160,10 @@ text-align: right;
 }
 
 .support {
+    background-image: url("../assets/handshake.jpg");
     padding: 50px;
     text-align: center;
+    
 }
 
 .support form {
@@ -220,4 +222,11 @@ margin: 32px 0px;
 .f2{
     display: flex;
     justify-content: space-between;
+}
+target-1{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
 }
