@@ -180,13 +180,44 @@ text-align: right;
 }
 
 footer {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+
+letter-spacing: 0%;
+text-align: center;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f4f4f4;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
 }
 
 .social-links {
+    
+    /* Frame 24 */
+position: static;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items:right;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.f{
+    text-align: left;
+}
+.f2{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
 }
